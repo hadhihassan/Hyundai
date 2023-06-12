@@ -1,130 +1,98 @@
 * {
     margin: 0;
     list-style-type: none;
-
-
 }
-
 body {
     font-family: monospace;
 }
-
 .top-box {
     display: flex;
     background-color: white;
     height: 70px;
 }
-
 .box-text li {
     display: flex;
-
     margin-left: 24px;
     margin-top: 4px;
     font-family: "HyundaiRegular";
     font-weight: normal;
-    
     line-height: 70px;
     padding-left: 27px;
     color: #666;
     font-size: 14px;
     margin-top: -19px;
-
 }
-
 .box-text ul {
-
     display: flex;
     margin-left: -2px;
 }
-
 .box-logo {
     margin-left: 114px;
     margin-top: 25px;
 }
-
-.box-icons {
-  
+.box-icons { 
     display: flex;
-
 }
-
 .box-icons li {
     font-family: Segoe UI;
     display: flex;
     padding-left: 10px;
 }
-
 .top-box ul {
     margin-left: -9px;
     margin-top: 21px;
     display: flex;
 }
-
 .bx {
     font-size: 25px;
     color: #666;
     font-family: "HyundaiRegular";
 }
-
 .section-body {
     background-image: url(backgroundimg.jpg);
     height: calc(100vh - 70px);
     padding: 0 40px;
     height: 640px;
 }
-
 .box-icons ul {
     position: absolute;
     margin-left: -30px;
 }
-
 .header-link {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px;
 }
-
 .header-link ul {
     display: flex;
-
 }
-
 .header-link li {
     padding-left: 3px;
-
 }
-
 .header-link span {
     text-decoration: underline;
     font-size: 14px;
     color: #000;
-
 }
-
 .hyundai-link a {
     font-size: larger;
     font-weight: 900;
     color: #00aad2;
     text-decoration: underline;
-
 }
-
 .side-icon {
     margin-right: 6px;
 }
-
 .side-h3 {
     padding-bottom: 23px;
     display: flex;
     padding-right: 47px;
 }
-
 .side-h3 h3 {
     font-size: 14px;
     font-weight: 20px;
 }
-
 .section-car img {
     width: 101%;
     display: block;
@@ -132,11 +100,9 @@ body {
     height: 443px;
     padding-left: 0%;
 }
-
 .section-car {
     width: 100%;
 }
-
 .htext-section {
     font-size: 30px;
     letter-spacing: 0.1px;
@@ -145,53 +111,39 @@ body {
     text-align: center;
     padding-top: 99px;
 }
-
 .text-section {
     font-family: system-ui;
     font-size: 19px;
     text-align: start;
-
     line-height: 28px;
     letter-spacing: 0.2px;
     color: #000;
     padding-top: 30px;
     padding-left: 49px;
 }
-
 .car-section-2 {
     width: 100%;
-
 }
-
 .car-2 {
     height: 100%;
     width: 80%;
     padding-top: 150px;
     padding-left: 48px;
-
 }
-
 .car-2 img {
     width: 79rem;
 }
-
 .circle-icon {
-
     padding-left: 49%;
     padding-top: 30px;
 }
-
 .bx {
     width: 20px;
     height: 50px;
 }
-
 .text-area {
-
-
     width: 100%;
 }
-
 .area-content p {
     padding-left: 55px;
     font-size: 19px;
@@ -202,20 +154,16 @@ body {
     text-align: start;
     padding-top: 20px;
 }
-
 .car3-section {
     padding-left: 56px;
     padding-top: 87px;
 }
-
 .car3-section {
     width: 100%;
 }
-
 .car3-section img {
     width: 79rem;
 }
-
 .text-area-2 p {
     margin-left: 56px;
     padding-top: 50px;
@@ -226,21 +174,16 @@ body {
     font-family: sans-serif;
     font-size: 18px;
 }
-
 .video-section {
     padding-left: 34px;
 }
-
 .video-section img {
     width: 81rem;
 }
-
 .booknow-section {
-
     height: 250px;
     background-color: #e4dcd3;
 }
-
 .booknow-section h2 {
     padding-top: 50px;
     font-size: 20px;
@@ -249,24 +192,18 @@ body {
     color: #000;
     font-family: system-ui;
     text-align: center;
-
 }
-
 .booknow-section button {
-
     background-color: #002c5f;;
     color: white;
     height: 55px;
     width: 285px;
     border: none;
     font-size: large;
-
 }
-
 .booknow {
     padding-top: 84px;
 }
-
 .booknow-button {
     padding-left: 536px;
     padding-top: 75px;
@@ -285,39 +222,33 @@ body {
     outline: none;
     width: 96%;
     height: 50px;
-    
 }
 .input-login{
     outline: none;
     line-height: 50px;
     padding-left: 55px;
     padding-top: 50px;
-    
 }
 input {
     border: 1px solid #e4dcd3;
 }
 input.mobile{
     width: 25%;
-
 }
 .input-login button{
     height: 53px;
     width: 124px;
-    background-color: #7e91b8
-    
+    background-color: #7e91b8 
 }
 .but{
     color: white;
     border: 0;
     font-size: medium;
     font-size: 20px;
-
 }
 .same input{
     background-color: #7e91b8;
 }
-
 ::placeholder{
     padding-left: 15px;
 }
@@ -340,7 +271,6 @@ input.same{
     background:  #e1e3e3;
 }
 .footer{
-    
     display: flex;
     background: rgb(28, 27, 27);
     height: 200px;
@@ -348,29 +278,21 @@ input.same{
     padding: 10px 30px;
     justify-content: center;
     padding-top: 10px;
-
 }
 .input-section{
     padding-bottom: 50px;
 }
-.footer img{
-    
+.footer img{   
     padding-top: 8px;
     padding-left: 0px;
 } 
-.footer li{
-    
+.footer li{    
     float: left;
     font-family: system-ui,Roboto;
     color: #999;
     font-size: smaller;
     margin-left: 20px;
 }
-.footer ul{
-    /* padding-top: 16px;
-    padding-left: 189px; */
-}
-
 .img-div{
     display: flex;
     align-items: center;
@@ -378,7 +300,6 @@ input.same{
     height: 100px;
     padding-bottom: 130px;
 }
-
 .ul-1{
     padding-bottom: 123px;
 }
