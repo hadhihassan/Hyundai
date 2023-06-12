@@ -95,10 +95,7 @@ body {
 }
 .section-car img {
     width: 101%;
-    display: block;
-    background-size: contain;
     height: 443px;
-    padding-left: 0%;
 }
 .section-car {
     width: 100%;
