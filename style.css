@@ -214,17 +214,17 @@ body {
     font-size: 38px;
 }
 .input-login{
-    outline: none;
+   
     font-weight: 800;
     font-size: 21px;
 }
 .input-login input{
-    outline: none;
+  
     width: 96%;
     height: 50px;
 }
 .input-login{
-    outline: none;
+  
     line-height: 50px;
     padding-left: 55px;
     padding-top: 50px;
