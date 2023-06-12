@@ -22,7 +22,7 @@ body {
     margin-top: 4px;
     font-family: "HyundaiRegular";
     font-weight: normal;
-    display: block;
+    
     line-height: 70px;
     padding-left: 27px;
     color: #666;
@@ -43,7 +43,7 @@ body {
 }
 
 .box-icons {
-    position: relative;
+  
     display: flex;
 
 }
